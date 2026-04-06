@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/black"
-    tools:context="com.recymera.CameraActivity" />
+    tools:context="com.recymera.ui.camera.CameraActivity" />
 
         <!-- origin 코드 ..
         <androidx.appcompat.widget.Toolbar

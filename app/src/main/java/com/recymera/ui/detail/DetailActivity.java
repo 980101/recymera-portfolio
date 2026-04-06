@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.detail;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.recymera.R;
+import com.recymera.model.DetailItemData;
+import com.recymera.ui.adapter.DetailAdapter;
 
 import java.util.ArrayList;
 import java.util.Collections;

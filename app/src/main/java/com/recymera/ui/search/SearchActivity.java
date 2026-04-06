@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.search;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,6 +18,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.recymera.R;
+import com.recymera.model.SearchItemData;
+import com.recymera.ui.adapter.OnItemClickListener;
+import com.recymera.ui.adapter.SearchAdapter;
+import com.recymera.ui.detail.DetailActivity;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

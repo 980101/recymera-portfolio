@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +14,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.recymera.R;
+import com.recymera.model.MainItemData;
+import com.recymera.ui.adapter.MainAdapter;
+import com.recymera.ui.camera.ClassifierActivity;
+import com.recymera.ui.search.SearchActivity;
 
 import java.util.ArrayList;
 import java.util.Objects;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.recymera;
+package com.recymera.ui.camera;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -23,12 +23,13 @@ import android.media.ImageReader.OnImageAvailableListener;
 import android.os.SystemClock;
 import android.util.Size;
 import android.util.TypedValue;
+import com.recymera.R;
+import com.recymera.ml.classifier.Classifier;
+import com.recymera.ml.classifier.Classifier.Device;
+import com.recymera.util.BorderedText;
+import com.recymera.util.Logger;
 import java.io.IOException;
 import java.util.List;
-import com.recymera.env.BorderedText;
-import com.recymera.env.Logger;
-import com.recymera.tflite.Classifier;
-import com.recymera.tflite.Classifier.Device;
 
 public class ClassifierActivity extends CameraActivity implements OnImageAvailableListener {
   private static final Logger LOGGER = new Logger();

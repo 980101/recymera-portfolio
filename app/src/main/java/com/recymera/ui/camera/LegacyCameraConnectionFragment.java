@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.camera;
 
 /*
  * Copyright 2019 The TensorFlow Authors. All Rights Reserved.
@@ -31,11 +31,12 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import com.recymera.R;
+import com.recymera.ui.view.AutoFitTextureView;
+import com.recymera.util.ImageUtils;
+import com.recymera.util.Logger;
 import java.io.IOException;
 import java.util.List;
-import com.recymera.customview.AutoFitTextureView;
-import com.recymera.env.ImageUtils;
-import com.recymera.env.Logger;
 
 public class LegacyCameraConnectionFragment extends Fragment {
   private static final Logger LOGGER = new Logger();

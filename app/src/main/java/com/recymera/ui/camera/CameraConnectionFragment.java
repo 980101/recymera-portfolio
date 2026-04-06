@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.recymera;
+package com.recymera.ui.camera;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -52,6 +52,9 @@ import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+import com.recymera.R;
+import com.recymera.ui.view.AutoFitTextureView;
+import com.recymera.util.Logger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -59,8 +62,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import com.recymera.customview.AutoFitTextureView;
-import com.recymera.env.Logger;
 
 /**
  * Camera Connection Fragment that captures images from camera.

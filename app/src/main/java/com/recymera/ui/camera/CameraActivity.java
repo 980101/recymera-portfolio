@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.recymera;
+package com.recymera.ui.camera;
 
 import android.Manifest;
 import android.app.Fragment;
@@ -55,11 +55,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-
-import com.recymera.env.ImageUtils;
-import com.recymera.env.Logger;
-import com.recymera.tflite.Classifier.Device;
-import com.recymera.tflite.Classifier.Recognition;
+import com.recymera.R;
+import com.recymera.ml.classifier.Classifier.Device;
+import com.recymera.ml.classifier.Classifier.Recognition;
+import com.recymera.ui.detail.DetailActivity;
+import com.recymera.util.ImageUtils;
+import com.recymera.util.Logger;
 
 import java.nio.ByteBuffer;
 import java.util.List;

@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.recymera.customview;
+package com.recymera.ui.view;
 
 import java.util.List;
-import com.recymera.tflite.Classifier.Recognition;
+import com.recymera.ml.classifier.Classifier.Recognition;
 
 public interface ResultsView {
   public void setResults(final List<Recognition> results);

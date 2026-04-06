@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.recymera.customview;
+package com.recymera.ui.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

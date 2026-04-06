@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.model;
 
 public class SearchItemData {
     private int image;

@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.adapter;
 
 public interface OnItemClickListener {
     String onItemClick (String name);

@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.adapter;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.recymera.R;
+import com.recymera.model.SearchItemData;
+import com.recymera.ui.detail.DetailActivity;
 
 import java.util.ArrayList;
 

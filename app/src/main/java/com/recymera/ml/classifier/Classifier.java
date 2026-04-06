@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.recymera.tflite;
+package com.recymera.ml.classifier;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -29,8 +29,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.Interpreter;
-import com.recymera.env.Logger;
-import com.recymera.tflite.Classifier.Device;
+import com.recymera.util.Logger;
 import org.tensorflow.lite.gpu.GpuDelegate;
 import org.tensorflow.lite.support.common.FileUtil;
 import org.tensorflow.lite.support.common.TensorOperator;

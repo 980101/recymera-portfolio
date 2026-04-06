@@ -1,4 +1,4 @@
-package com.recymera;
+package com.recymera.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.recymera.R;
+import com.recymera.model.DetailItemData;
 
 import java.util.ArrayList;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.recymera;
+package com.recymera.ui.camera;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -35,9 +35,9 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import com.recymera.tflite.Classifier;
-import com.recymera.tflite.Classifier.Device;
-import com.recymera.tflite.Classifier.Recognition;
+import com.recymera.ml.classifier.Classifier;
+import com.recymera.ml.classifier.Classifier.Device;
+import com.recymera.ml.classifier.Classifier.Recognition;
 
 /** Golden test for Image Classification Reference app. */
 @RunWith(AndroidJUnit4.class)

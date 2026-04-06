@@ -13,11 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.recymera.tflite;
+package com.recymera.ml.classifier;
 
 import android.app.Activity;
 import java.io.IOException;
-import com.recymera.tflite.Classifier.Device;
 import org.tensorflow.lite.support.common.TensorOperator;
 import org.tensorflow.lite.support.common.ops.NormalizeOp;
 
